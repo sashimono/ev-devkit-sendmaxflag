@@ -1,6 +1,6 @@
 {
   "name": "evdevkit",
-  "version": "0.7.21",
+  "version": "0.7.22",
   "license": "SEE LICENSE IN https://raw.githubusercontent.com/EvernodeXRPL/evernode-resources/main/license/evernode-license.pdf",
   "description": "Developer toolkit for Evernode smart contract deployment",
   "keywords": [
