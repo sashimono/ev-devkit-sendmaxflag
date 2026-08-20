@@ -55,6 +55,7 @@ program
     .option('-m, --moments [moments]', 'Life moments')
     .option('-c, --contract-id [contract-id]', 'Contract id')
     .option('-i, --image [image]', 'Instance image')
+    .option('-s, --sendmax [evr]', 'Maximum EVR allowed for acquiring the instance')
     .action(acquire);
 
 program
@@ -97,6 +98,7 @@ program
     .option('-m, --moments [moments]', 'Life moments')
     .option('-c, --contract-id [contract-id]', 'Contract id')
     .option('-i, --image [image]', 'Instance image')
+    .option('-s, --sendmax [evr]', 'Maximum EVR allowed for acquiring the instance')
     .action(acquireAndDeploy);
 
 program
